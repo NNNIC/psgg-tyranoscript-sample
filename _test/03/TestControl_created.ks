@@ -35,25 +35,12 @@ START[r]
     f.yesno=0;
 [endscript]
 END[r]
-[iscript]
-    f.clkval='';
-[endscript]
-[clickable x=0 y=0 width=800 height=640 color=red opacity=30 target="S_END___clickablelabel_A0"]
 [s]
 *S_END___branch
 ;
 ; BRANCH
 ;
-[brcode br='br_CLKVAL_A0' st='S_START']
 [jump target=&f.nextstate]
-;
-; CLICK LABEL
-;
-*S_END___clickablelabel_A0
-[iscript]
-    f.clkval = 'A0';
-[endscript]
-[jump target="S_END___branch"]
 ;
 ; END OF S_END
 ;
@@ -98,7 +85,7 @@ END[r]
     f.butval='';
 [endscript]
 [button X=100 y=250 graphic="title/button_start.png" target="S_TITLE___buttonlabel_START"]
-[button name="role_button" x=100 y=320  graphic="title/button_load.png" enterimg="load" role=""  ]
+[button name="role_button" x=100 y=320  graphic="title/button_load.png" enterimg="title/button_load.png" role="load"  ]
 [s]
 *S_TITLE___branch
 ;
@@ -1604,8 +1591,8 @@ window.open("http://tyrano.jp/home/example");
 [iscript]
     f.lnkval='';
 [endscript]
-[link target="S_MUSIC__linklabel_play"] 【１】うん。再生してください [endlink] [r]
-[link target="S_MUSIC__linklabel_noplay"] 【２】いや。今は再生しないで！ [endlink]
+[link target="S_MUSIC___linklabel_play"] 【１】うん。再生してください [endlink] [r]
+[link target="S_MUSIC___linklabel_noplay"] 【２】いや。今は再生しないで！ [endlink]
 [s]
 *S_MUSIC___branch
 ;
@@ -1982,6 +1969,28 @@ window.open("http://tyrano.jp/home/tag");
 [jump target=&f.nextstate]
 ;
 ; END OF S_BL_TAG
+;
+;------------------------------
+;    S_DBGP
+;
+*S_DBGP
+[iscript]
+    f.curstate = 'S_DBGP';
+    f.nextstate ='';
+    f.yesno=0;
+[endscript]
+*S_DBGP___branch
+;
+; BRANCH
+;
+[iscript]
+    if (f.nextstate == '') {
+        f.nextstate = 'S_MUSIC';
+    }
+[endscript]
+[jump target=&f.nextstate]
+;
+; END OF S_DBGP
 ;
 ;------------------------------
 ;    S_BL_TECH
