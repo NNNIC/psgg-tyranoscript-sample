@@ -19,6 +19,12 @@ tyranoscript‚Ì‰Šúó‘Ô‚É•t‘®‚·‚éƒfƒ‚‚ğSYN-G-GEN‚Åì‚è‚È‚¨‚è‚Ü‚µ‚½B
 
 ![](https://raw.githubusercontent.com/NNNIC/psgg-tyranoscript-sample/master/wiki/chart.png)
 
+### Modify first.ks at 'data/scenario' folder.
+
+<pre>
+@jump storage="testControl.ks" 
+</pre>
+
 ### Execute
 
 ![](https://github.com/NNNIC/psgg-tyranoscript-sample/blob/master/wiki/demo.gif)
