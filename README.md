@@ -1,18 +1,18 @@
 # psgg-tyranoscript-sample
 
-SYN-G-GEN tyranoscript sample
+StateGo tyranoscript sample
 
 ## Environment
 
 Windows 7/8/10  
 Tyranoscript/Tyranorider  
-SYN-G-GEN http://syn-g-gen.com/  
+StateGo https://statego.programanic.com/  
 
 ## Sample
 
-It is a sample converted from the demo in tyranoscript installer to SYN-G-GEN.
+It is a sample converted from the demo in tyranoscript installer to StateGo.
 
-tyranoscript‚Ì‰Šúó‘Ô‚É•t‘®‚·‚éƒfƒ‚‚ğSYN-G-GEN‚Åì‚è‚È‚¨‚è‚Ü‚µ‚½B
+tyranoscriptã®åˆæœŸçŠ¶æ…‹ã«ä»˜å±ã™ã‚‹ãƒ‡ãƒ¢ã‚’StateGoã§ä½œã‚ŠãªãŠã‚Šã¾ã—ãŸã€‚
 
 
 ### Sate machine
