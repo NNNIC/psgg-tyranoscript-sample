@@ -6,7 +6,7 @@ StateGo tyranoscript sample
 
 Windows 7/8/10  
 Tyranoscript/Tyranorider  
-StateGo https://statego.programanic.com/  
+[StateGo](https://statego.programanic.com/index-e.html)
 
 ## Sample
 
