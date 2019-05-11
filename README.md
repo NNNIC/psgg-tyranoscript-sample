@@ -25,6 +25,16 @@ It is a sample converted from the demo in tyranoscript installer to StateGo.
 
 tyranoscriptの初期状態に付属するデモをStateGoで作りなおりました。
 
+### ファイル説明  / File Description
+
+|ファイル / File | 説明 / Description |
+|---|---|
+| clear.bat | クリア用ファイル / Clear files. |
+| copykstotyrano.bat | 生成ファイルをTyranoscript用シナリオフォルダへコピー / Copy the created file to Tyranoscript scenario folder. |
+| open_senaiofolder.bat |　Tyranonoscript用シナリオフォルダを開く /  Open Tyranoscript scenario folder. |
+| tyranoroder.bat | TyranoRiderを実行  |
+
+
 
 ### Sate machine
 
