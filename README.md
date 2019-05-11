@@ -31,7 +31,7 @@ tyranoscriptの初期状態に付属するデモをStateGoで作りなおりま�
 |---|---|
 | clear.bat | クリア用ファイル / Clear files. |
 | copykstotyrano.bat | 生成ファイルをTyranoscript用シナリオフォルダへコピー / Copy the created file to Tyranoscript scenario folder. |
-| open_senaiofolder.bat |　Tyranonoscript用シナリオフォルダを開く /  Open Tyranoscript scenario folder. |
+| open_senaiofolder.bat | Tyranonoscript用シナリオフォルダを開く /  Open Tyranoscript scenario folder. |
 | tyranoroder.bat | TyranoRiderを実行  |
 
 
