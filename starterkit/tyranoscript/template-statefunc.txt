@@ -45,10 +45,6 @@ eof>>>
 [[button->@makebutton]]
 >>>
 
-<<<?role_button
-[[role_button]]
->>>
-
 <<<?glink
 [iscript]
     f.glkval='';

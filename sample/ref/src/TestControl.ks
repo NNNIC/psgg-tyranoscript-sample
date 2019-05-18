@@ -1366,18 +1366,6 @@ AppStoreやGooglePlayに向けてアプリ化して販売することもでき�
     f.yesno=0;
 [endscript]
 @hidemenubutton
-[button name="role_button" x=35 y=610  graphic="button/skip.png" enterimg="button/skip2.png" role="skip"  ]
-[button name="role_button" x=110 y=610  graphic="button/auto.png" enterimg="button/auto2.auto" role="auto"  ]
-[button name="role_button" x=185 y=610  graphic="button/save.png" enterimg="button/save2.png" role="save"  ]
-[button name="role_button" x=260 y=610  graphic="button/load.png" enterimg="button/load2.png" role="load"  ]
-[button name="role_button" x=335 y=610  graphic="button/qsave.png" enterimg="button/qsave2.png" role="qicksave"  ]
-[button name="role_button" x=410 y=610  graphic="button/qload.png" enterimg="button/qload2.png" role="qickload"  ]
-[button name="role_button" x=485 y=610  graphic="button/log.png" enterimg="button/log2.png" role="backlog"  ]
-[button name="role_button" x=560 y=610  graphic="button/close.png" enterimg="button/close2.png" role="window"  ]
-[button name="role_button" x=635 y=610  graphic="button/screen.png" enterimg="button/screen2.png" role="fullscreen"  ]
-[button name="role_button" x=710 y=610  graphic="button/menu.png" enterimg="button/menu2.png" role="menu"  ]
-[button name="role_button" x=785 y=610  graphic="button/sleep.png" enterimg="button/sleep2.png" role="sleepgame" storage='config.ks' ]
-[button name="role_button" x=860 y=610  graphic="button/title.png" enterimg="button/title2.png" role="title"  ]
 *S_MENUBTN___branch
 ;
 ; BRANCH
@@ -1998,7 +1986,10 @@ START[r]
     f.butval='';
 [endscript]
 [button x=100 y=250 graphic="title/button_start.png" target="S_TITLE___buttonlabel_START"]
-[button name="role_button" x=100 y=320  graphic="title/button_load.png" enterimg="title/button_load.png" role="load"  ]
+[button x=100 y=320 graphic="title/button_load.png"  role="load" ]
+[button x=100 y=390 graphic="title/button_cg.png" storage="cg.ks" ]
+[button x=100 y=460 graphic="title/button_replay.png" storage="replay.ks" ]
+[button x=100 y=530 graphic="title/button_config.png" role="sleepgame" storage="config.ks" ]
 [s]
 *S_TITLE___branch
 ;
