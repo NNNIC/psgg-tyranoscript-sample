@@ -66,9 +66,9 @@ eof>>>
 [[clickable->@makeclickable]]
 >>>
 
-<<<?wait
+[[prewait]]
+
 [[wait]]
->>>
 
 *[[state]]___branch
 ;
