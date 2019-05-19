@@ -13,9 +13,9 @@ eof>>>
     f.nextstate ='';
     f.yesno=0;
 [endscript]
-<<<?init
+
 [[init]]
- >>>
+
 <<<?initscript
 [iscript]
     [[initscript]]
@@ -26,17 +26,11 @@ eof>>>
 @bg storage="[[bg]]"
 >>>
 
-<<<?bgx
 [[bgx]]
->>>
 
-<<<?chara_face
 [[chara_face]]
->>>
 
-<<<?bg_after
 [[bg_after]]
->>>
 
 <<<?button
 [iscript]
