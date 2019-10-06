@@ -12,7 +12,7 @@
 [jump target=*S_START]
 
 ; [SYN-G-GEN OUTPUT START]  indent(0) $/./$
-;  psggConverterLib.dll converted from TestControl.xlsx.    psgg-file:..\doc\TestControl.psgg
+;  psggConverterLib.dll converted from TestControl.xlsx. 
 ;------------------------------
 ;    S_ADJUST_CHARAREGION
 ;    文字が表示される領域を調整

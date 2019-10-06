@@ -50,5 +50,8 @@ tyranoscriptの初期状態に付属するデモをStateGoで作りなおりま�
 
 ![](https://github.com/NNNIC/psgg-tyranoscript-sample/blob/master/wiki/demo.gif)
 
+## Note
+
+2019.10.6 Sample updated for PSGG File format changes.
 
 
