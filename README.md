@@ -21,15 +21,14 @@ Tyranoscript/Tyranorider
 
 ## Sample
 
-It is a sample converted from the demo in tyranoscript installer to StateGo.
+It is a StateGo sample  using tyranoscript demo.
 
-tyranoscriptの初期状態に付属するデモをStateGoで作りなおりました。
+tyranoscriptのデモを利用したサンプルです。
 
 ### ファイル説明  / File Description
 
 |ファイル / File | 説明 / Description |
 |---|---|
-| clear.bat | クリア用ファイル / Clear files. |
 | copykstotyrano.bat | 生成ファイルをTyranoscript用シナリオフォルダへコピー / Copy the created file to Tyranoscript scenario folder. |
 | open_senaiofolder.bat | Tyranonoscript用シナリオフォルダを開く /  Open Tyranoscript scenario folder. |
 | tyranoroder.bat | TyranoRiderを実行  |
@@ -38,7 +37,7 @@ tyranoscriptの初期状態に付属するデモをStateGoで作りなおりま�
 
 ### Sate machine
 
-![](https://raw.githubusercontent.com/NNNIC/psgg-tyranoscript-sample/master/wiki/chart.png)
+![](https://raw.githubusercontent.com/NNNIC/psgg-tyranoscript-sample/master/wiki/gosub.png)
 
 ### Modify first.ks at 'data/scenario' folder.
 
@@ -48,10 +47,10 @@ tyranoscriptの初期状態に付属するデモをStateGoで作りなおりま�
 
 ### Execute
 
-![](https://github.com/NNNIC/psgg-tyranoscript-sample/blob/master/wiki/demo.gif)
+![](https://github.com/NNNIC/psgg-tyranoscript-sample/blob/master/wiki/gosub.gif)
 
 ## Note
 
-2019.10.6 Sample updated for PSGG File format changes.
+2019.11.3 Sample updated for 'Gosub' and 'Loop' features.
 
 
