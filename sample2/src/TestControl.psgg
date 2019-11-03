@@ -1,13 +1,15 @@
-﻿;PSGG Editor Backup File
+﻿;PSGG Editor Backup File
 version=1.1
 file=TestControl.xlsx
-guid=fb21037e-4ce7-47a2-9069-9cde00a229ce
-;set read_from  excel or psgg
+guid=b139c51f-246a-4dc0-ab52-e9447104eee8
+;set read_from  excel or psgg
 read_from=psgg
-;set savemode with_excel or psgg_only
+;set savemode with_excel or psgg_only
 save_mode=psgg_only
-;set check_excel_writable yes or no
+;set check_excel_writable yes or no
 check_excel_writable=no
+
+
 
 ------#======*<Guid(D13821FE-FA27-4B04-834C-CEC1E5670F48)>*======#------
 
@@ -661,61 +663,52 @@ n01d=100057
 
 
 
+
 ------#======*<Guid(70C5A739-223A-457D-8AEE-1A0E2050D5AE)>*======#------
 
 sheet=config
 
 ###VARIOUS-CONTENTS-BEGIN###
+
 ; The setting was created automatically. 2019/11/03 21:25:35
 ; * pssgEditor version : 0.61.41008.b83e59111b3a935fbe1b89e29e11088a78e1ef52
-psggfile=@@@
-TestControl.psgg
-@@@
-xlsfile=@@@
-TestControl.xlsx
-@@@
-guid=@@@
-fb21037e-4ce7-47a2-9069-9cde00a229ce
-@@@
+psggfile=TestControl.psgg
+xlsfile=TestControl.xlsx
+guid=b139c51f-246a-4dc0-ab52-e9447104eee8
 bitmap_width=5000
 bitmap_height=2000
 c_statec_cmt=1
 c_thumbnail=1
 c_contents=1
 force_display_outpin=0
-last_action=@@@
-Edited a state.
-@@@
-target_pathdir=@@@
-/
-@@@
-state_location_list=@@@
-
-@@@
+last_action=Edited a state.
+target_pathdir=/
+state_location_list=
 nodegroup_comment_list=@@@
 [{"Key":"\/","Value":"This is the root"},{"Key":"\/PREPARE\/","Value":"ゲーム準備"}]
 @@@
+
 nodegroup_pos_list=@@@
 [{"Key":"\/","Value":{"x":100,"y":-1}},{"Key":"\/PREPARE\/","Value":{"x":80,"y":858}}]
 @@@
+
 fillter_state_location_list=@@@
 [{"Key":"\/","Value":[{"Key":"S_START","Value":{"x":50,"y":100}},{"Key":"S_END","Value":{"x":1835,"y":219}},{"Key":"S_TITLE","Value":{"x":85,"y":522}},{"Key":"S_FIRSTSTEP","Value":{"x":81,"y":300}},{"Key":"S_QUESTION","Value":{"x":1061,"y":229}},{"Key":"S_QUESTION1","Value":{"x":1317,"y":216}},{"Key":"S_SERIF01","Value":{"x":221,"y":969}},{"Key":"S_SHOW_AKANE","Value":{"x":1774,"y":606}},{"Key":"S_SERIF03","Value":{"x":1561,"y":611}},{"Key":"S_SERIF02","Value":{"x":1351,"y":524}},{"Key":"S_GOSUB1","Value":{"x":427,"y":920}},{"Key":"S_SUBSTART1","Value":{"x":572,"y":1178}},{"Key":"____altnative_state____PREPARE","Value":{"x":80,"y":858}},{"Key":"S_SHOW_AKANE1","Value":{"x":776,"y":1174}},{"Key":"S_SETUP_YAMATO1","Value":{"x":659,"y":849}},{"Key":"S_RETURN1","Value":{"x":1183,"y":1177}},{"Key":"S_SHOW_AKANE2","Value":{"x":975,"y":1174}},{"Key":"S_OK_GOSUB","Value":{"x":659,"y":849}},{"Key":"S_LOOP1","Value":{"x":1105,"y":884}},{"Key":"S_OK_GOSUB1","Value":{"x":1618,"y":516}},{"Key":"S_ABOUT_LOOP","Value":{"x":868,"y":853}},{"Key":"S_SUBSTART2","Value":{"x":1290,"y":965}},{"Key":"S_SHOW_AKANE3","Value":{"x":1952,"y":743}},{"Key":"S_SHOW_AKANE4","Value":{"x":1704,"y":864}},{"Key":"S_RETURN2","Value":{"x":2086,"y":997}},{"Key":"S_SHOW_AKANE5","Value":{"x":1696,"y":1039}},{"Key":"S_CHECK_COUNT","Value":{"x":1428,"y":1073}},{"Key":"S_SHOW_AKANE6","Value":{"x":1695,"y":1166}},{"Key":"S_SHOW_AKANE7","Value":{"x":1697,"y":1382}},{"Key":"S_OWARI","Value":{"x":1618,"y":516}},{"Key":"S_SHOW_AKANE8","Value":{"x":1694,"y":1270}}]},{"Key":"\/PREPARE\/","Value":[{"Key":"S_TITLE","Value":{"x":50,"y":100}},{"Key":"S_SCENE_1","Value":{"x":219,"y":16}},{"Key":"S_SHOW_MSGWINDOW","Value":{"x":1002,"y":22}},{"Key":"S_SETUP_YAMATO","Value":{"x":442,"y":288}},{"Key":"S_SETUP_MESSAGEWINDOW","Value":{"x":616,"y":13}},{"Key":"S_DISP_MENU","Value":{"x":417,"y":16}},{"Key":"S_SET_CHARNAMEAREA","Value":{"x":1201,"y":23}},{"Key":"S_AKANE_EMOTION","Value":{"x":211,"y":287}},{"Key":"S_SETUP_AKANE","Value":{"x":30,"y":273}},{"Key":"S_ADJUST_CHARAREGION","Value":{"x":810,"y":21}},{"Key":"S_SERIF01","Value":{"x":1131,"y":406}}]},{"Key":"\/Intoroduction\/","Value":[{"Key":"S_SETUP_YAMATO","Value":{"x":50,"y":100}},{"Key":"S_SERIF01","Value":{"x":305,"y":58}},{"Key":"S_SHOW_AKANE","Value":{"x":920,"y":66}},{"Key":"S_SERIF03","Value":{"x":709,"y":71}},{"Key":"S_SERIF02","Value":{"x":514,"y":61}},{"Key":"S_QUESTION","Value":{"x":1212.15381,"y":188.6923}}]}]
 @@@
+
 linecolor_data=@@@
 [{"color":{"knownColor":0,"name":null,"state":2,"value":4285493103},"pattern":"BACKTO_"}]
 @@@
-use_external_command=0
-external_command=@@@
 
-@@@
+use_external_command=0
+external_command=
 source_editor=@@@
 "%USERPROFILE%\AppData\Local\Programs\Microsoft VS Code\Code.exe" -g "%1":%2
 @@@
+
 source_editor_vs2015_support=0
 label_show=0
-label_text=@@@
-test
-@@@
+label_text=test
 option_delete_thisstring=1
 option_delete_br_string=1
 option_delete_bracket_string=1
@@ -727,9 +720,7 @@ option_editbranch_automode=1
 option_omit_basestate_string=0
 option_hide_basestate_contents=1
 option_hide_branchcmt_onbranchbox=0
-font_name=@@@
-MS UI Gothic
-@@@
+font_name=MS UI Gothic
 font_size=11
 comment_font_size=0
 contents_font_size=0
@@ -739,16 +730,12 @@ comment_block_height=20
 content_max_height=200
 comment_block_fixed=0
 line_space=-1
-userbutton_title=@@@
-
-@@@
-userbutton_command=@@@
-
-@@@
+userbutton_title=
+userbutton_command=
 userbutton_callafterconvert=0
-itemeditform_size_list=@@@
+itemeditform_size_list=
 
-@@@
+
 
 ###VARIOUS-CONTENTS-END###
 
@@ -760,6 +747,7 @@ sheet=template-source
 ###VARIOUS-CONTENTS-BEGIN###
 
 ###VARIOUS-CONTENTS-END###
+
 
 
 ------#======*<Guid(70C5A739-223A-457D-8AEE-1A0E2050D5AE)>*======#------
@@ -980,11 +968,14 @@ eof>>>
 ###VARIOUS-CONTENTS-END###
 
 
+
 ------#======*<Guid(70C5A739-223A-457D-8AEE-1A0E2050D5AE)>*======#------
 
 sheet=setting.ini
 
 ###VARIOUS-CONTENTS-BEGIN###
+
+
 [setting]
 
 psgg=TestControl.psgg
@@ -1001,11 +992,15 @@ template_src=
 template_func=template-statefunc.txt
 
 help=help.ini
-helpweb=starterkit\tyranoscript\helpweb.html
+helpweb=starterkit2\tyranoscript\helpweb.html
+
 
 [setupinfo]
 
-starterkit=https://github.com/NNNIC/psgg-starter-kit.git cfc8f13265625552383bb1b6b930dc73d33fe5ea
+starterkit=@@@
+https://github.com/NNNIC/psgg-starter-kit.git cfc8f13265625552383bb1b6b930dc73d33fe5ea
+@@@
+
 
 
 lang=tyranoscript
@@ -1014,8 +1009,14 @@ framework=
 statemachine=TestControl
 
 prefix=__PREFIX__
-xlsdir=C:\Users\gea01\Documents\psgg\samples\psgg-tyranoscript-sample\sample2\src
-gendir=C:\Users\gea01\Documents\psgg\samples\psgg-tyranoscript-sample\sample2\src
+xlsdir=@@@
+C:\Users\gea01\Documents\psgg\samples\psgg-tyranoscript-sample\sample2\src
+@@@
+
+gendir=@@@
+C:\Users\gea01\Documents\psgg\samples\psgg-tyranoscript-sample\sample2\src
+@@@
+
 genrdir=.
 incrdir=.
 
@@ -1023,72 +1024,54 @@ incrdir=.
 code_output_start=[SYN-G-GEN OUTPUT START]
 code_output_end=[SYN-G-GEN OUTPUT END]
 
-[macro]
-; This section has macro defines for converting.
+; This section has macro defines for converting.
 
-; commentline format  {%0} will be replaced to a comment.
+; commentline format  {%0} will be replaced to a comment.
+[macro]
+
 commentline=; {%0}
 
 [jpn]
-title=tyranoscript スタートキット 2018/10/14a
+
+title=Tyranoscript スタートキット 2019/11/3
 
 detail=@@@
-
 Tyranoscript 用のステートマシンを作成します。
 
-# ドキュメント用フォルダ
-   ステート図ファイルとエディタ起動用ショートカットを格納
+サンプルは以下より入手可能です。
+https://github.com/NNNIC/psgg-tyranoscript-sample
 
-      C:\Users\gea01\Documents\psgg\samples\psgg-tyranoscript-sample\sample2\src
+# ファイル
 
-  以下のファイルを作成します。
-
-      TestControl.pssg   --- エディタで次のエクセルファイルを開く。
-      TestControl.xlsx   --- ステート図格納用Excelファイル。エディタが編集。
-
-# ソース用フォルダ
-　エディタが生成ソースファイル、ユーザ実装ソースファイル、及び管理クラスファイルを格納
-
-      C:\Users\gea01\Documents\psgg\samples\psgg-tyranoscript-sample\sample2\src
-
-  以下のファイルが作成されます。
-
-      TestControl.ks  --- Excelファイルからの変換コードを本ファイルに埋め込む。
-
-注意 : 既に同名のファイルがある場合は生成されません。
-　　　 削除してから生成してください。
+      TestControl.pssg     --- StateGoデータファイル
+      TestControl.ks       --- 変換コードを本ファイルに埋め込む。
+      TestControlMacro.ini --- マクロファイル
 
 @@@
+
 
 
 [en]
-title=C# STARTER KIT 2018/9/24a
+
+title=Tyranoscript STARTER KIT 2019/11/3
 
 detail=@@@
-This dialog will create files for a state machine.
+This is to create a state-machine,
 
-# Document Folder
-　This folder will contain a state chart file and the shortcut of the editor.
-
-      C:\Users\gea01\Documents\psgg\samples\psgg-tyranoscript-sample\sample2\src
-
-  File:
-
-      TestControl.pssg  --- The editor opens the below excel file.
-      TestControl.xlsx  --- Excel File that has a state chart. The editor edits this file.
-
-# Source Folder
-   This folder will contain a source file generated by the editor, a user implemetation source file, and a manager source file.
-
-      C:\Users\gea01\Documents\psgg\samples\psgg-tyranoscript-sample\sample2\src
-
-　File:
-      TestControl.ks   -- The editor will insert converted source code to this file.
+The sample is available.
+https://github.com/NNNIC/psgg-tyranoscript-sample
 
 
-NOTE : If the same name files exists, the file will not be created.
-       Please delete the same name files ahead of the creation.
+# Files
+
+      TestControl.pssg  --- StateGo data file.
+      TestControl.ks    --- The editor will insert converted source code to this file.
+      TestControlMacro.ini --- Macro file.
+
 @@@
+
+
+
 ###VARIOUS-CONTENTS-END###
 
 
@@ -1223,6 +1206,7 @@ en=X,Y,FILE,LABEL
 ###VARIOUS-CONTENTS-END###
 
 
+
 ------#======*<Guid(70C5A739-223A-457D-8AEE-1A0E2050D5AE)>*======#------
 
 sheet=itemsinfo
@@ -1290,6 +1274,7 @@ embed=read_only,exclusion,S1
 basestate=read_only,share,S.+
 state-typ=read_only,exclusion,(S0)
 ###VARIOUS-CONTENTS-END###
+
 
 
 
