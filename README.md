@@ -11,6 +11,13 @@ Tyranoscript/Tyranorider
 　　Tyranoscript Ver475  
 　　TyranoRider  Ver220  
 
+## 旧サンプルの互換性
+
+旧サンプルは _before_beta6へ移動しました。
+StateGoのbeta7以降でも問題なく動作するようにしてあります。
+
+The previous sample has been moved to "_before_beta6" folder.
+Even though data file created using before StateGo beta6 can work using StateGo Beta7.
 
 ### 環境変数設定 / Setting environment variables
 
