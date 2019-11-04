@@ -42,7 +42,7 @@ tyranoscriptのデモを利用したサンプルです。
 
 
 
-### Sate machine
+### State machine
 
 ![](https://raw.githubusercontent.com/NNNIC/psgg-tyranoscript-sample/master/wiki/gosub.png)
 
